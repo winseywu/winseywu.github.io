@@ -1,7 +1,109 @@
 
 body{
 
-    background-color: bisque;
+    background-color: rgb(110,212,189);
+    
+}
+
+.frame{
+
+    width: 700px;
+    height: 700px;
+
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(244, 188,188);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.face{
+
+    width: 300px;
+    height: 300px;
+
+    position: absolute;
+    border-radius: 53% 47% 65% 35% / 63% 43% 57% 37% ;
+
+    top: 35%;
+    left: 29%;
+    transform: translate(-50%,-50%);
+
+    transform: rotate(-45deg);
+
+    background-color: rgb(146, 107, 86);
+
 }
 
 
+.left2{
+
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    border-radius: 62% 20% 83% 0% / 62% 0% 70% 18% ;
+
+    top: 42%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+    background-color: rgb(83, 63, 44);
+
+}
+
+.left1{
+
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+    border-radius: 62% 20% 83% 0% / 62% 0% 70% 18% ;
+
+    top: 42%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+    background-color: black;
+
+}
+
+.rigth2{
+
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    border-radius: 62% 20% 83% 0% / 62% 0% 70% 18% ;
+
+    top: 31.3%;
+    left: 49.7%;
+    transform: translate(-50%,-50%);
+
+    transform: rotate(-90deg);
+
+    background-color: rgb(83, 63, 44);
+
+}
+
+
+
+.rigth1{
+
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+    border-radius: 62% 20% 83% 0% / 62% 0% 70% 18% ;
+
+    top: 31.3%;
+    left: 49.7%;
+    transform: translate(-50%,-50%);
+
+    transform: rotate(-90deg);
+
+    background-color: black;
+
+}
