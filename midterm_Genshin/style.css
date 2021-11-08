@@ -1,0 +1,95 @@
+#intro{
+    
+    background-image: url(../pictures/login_page.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.intro_text{
+
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.5em;
+}
+
+.button{
+
+  background-color: aqua;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+#story1_body{
+
+    background-image: url(../pictures/setting_2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.Lisa{
+    justify-content: center;
+    align-items: center
+
+}
+
+.text_box{
+
+
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+
+}
+
+.story_text{
+
+    color: white;
+    font-size: 1.2em;
+}
+
+.button2{
+
+    border: none;
+    color: white;
+    /* padding: 14px 40px; */
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+#story2_body{
+
+    background-color: black;
+    
+}
+.transition_text{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 1.5em;
+}
