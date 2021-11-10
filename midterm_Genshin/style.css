@@ -19,7 +19,7 @@
 
 .button{
 
-    background-color: white;
+    background-color: gray;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -33,6 +33,7 @@
 }
 a:link {
     text-decoration: none;
+    
   }
   
   a:visited {
@@ -173,16 +174,14 @@ a:link {
     text-decoration: none;
     color: white;
   }
-
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
   a:hover {
     text-decoration: none;
     color: blue;
   }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
 
 #transiton_body{
 
