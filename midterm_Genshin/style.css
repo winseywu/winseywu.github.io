@@ -152,8 +152,8 @@ a:link {
     /* padding: 14px 40px; */
     text-decoration: none;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     font-size: 1.2em;
     margin: 4px 2px;
     cursor: pointer;
