@@ -2,7 +2,7 @@
 
     border-style: none;
     
-    background-image: url(../pictures/login_page.jpg);
+    background-image: url(pictures/login_page.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -43,7 +43,7 @@ a:link {
 
 #story1_body{
 
-    background-image: url(../pictures/lisa_scene1_happy.jpg);
+    background-image: url(pictures/lisa_scene1_happy.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -52,7 +52,7 @@ a:link {
 
 #story2_body{
 
-    background-image: url(../pictures/lisa_scene1_sad.jpg);
+    background-image: url(pictures/lisa_scene1_sad.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -61,7 +61,7 @@ a:link {
 
 #story3_body{
 
-    background-image: url(../pictures/lisa_scene1_wink.jpg);
+    background-image: url(pictures/lisa_scene1_wink.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -70,7 +70,7 @@ a:link {
 
 #act2_body{
 
-    background-image: url(../pictures/scene2_jean_serious.jpg);
+    background-image: url(pictures/scene2_jean_serious.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -79,7 +79,7 @@ a:link {
 
 #act2_1_body{
 
-    background-image: url(../pictures/scene2_jean_lisa_1.jpg);
+    background-image: url(pictures/scene2_jean_lisa_1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -88,7 +88,7 @@ a:link {
 
 #act2_2_body{
 
-    background-image: url(../pictures/scene2_jean_lisa_2.jpg);
+    background-image: url(pictures/scene2_jean_lisa_2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -97,7 +97,7 @@ a:link {
 
 #act2_3_body{
 
-    background-image: url(../pictures/scene2_jean_lisa_3.jpg);
+    background-image: url(pictures/scene2_jean_lisa_3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -106,7 +106,7 @@ a:link {
 
 #act2_4_body{
 
-    background-image: url(../pictures/scene2_jean_lisa_4.jpg);
+    background-image: url(pictures/scene2_jean_lisa_4.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -115,7 +115,7 @@ a:link {
 
 #act3_1_1body{
 
-    background-image: url(../pictures/act3_1_jean_lisa_1.jpg);
+    background-image: url(pictures/act3_1_jean_lisa_1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
