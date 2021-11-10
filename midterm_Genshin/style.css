@@ -67,6 +67,51 @@ a:link {
     
 }
 
+#act2_body{
+
+    background-image: url(../pictures/scene2_jean_serious.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#act2_1_body{
+
+    background-image: url(../pictures/scene2_jean_lisa_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#act2_2_body{
+
+    background-image: url(../pictures/scene2_jean_lisa_2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#act2_3_body{
+
+    background-image: url(../pictures/scene2_jean_lisa_3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#act2_4_body{
+
+    background-image: url(../pictures/scene2_jean_lisa_4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
 .text_box{
 
 
@@ -99,6 +144,36 @@ a:link {
     cursor: pointer;
 
 }
+
+.button3{
+
+    border: none;
+    color: white;
+    /* padding: 14px 40px; */
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
 
 #transiton_body{
 
