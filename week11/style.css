@@ -1,0 +1,85 @@
+body{
+
+    background-color: black;
+
+}
+
+h1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+}
+
+#p1{
+
+    font-size: 5em;
+    color: black;
+
+}
+
+#p2{
+
+    font-size: 4em;
+    color: black;
+
+}
+
+#p3{
+
+    font-size: 3em;
+    color: black;
+
+}
+
+#p4{
+
+    font-size: 2em;
+    color: black;
+
+}
+
+#p5{
+
+    font-size: 1em;
+    color: black;
+
+}
+
+
+#p6{
+
+    font-size: 2em;
+    color: black;
+
+}
+
+#p7{
+
+    font-size: 3em;
+    color: black;
+
+}
+
+#p8{
+
+    font-size: 4em;
+    color: black;
+
+}
+
+#p9{
+
+    font-size: 5em;
+    color: black;
+
+}
