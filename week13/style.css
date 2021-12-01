@@ -1,0 +1,115 @@
+body{
+
+    background-color: rgb(110, 212, 189);
+
+
+}
+
+#container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+
+}
+
+h2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image2{
+
+    display: flex;
+    justify-content: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 40%;
+}
+
+p{
+
+    background-color: rgb(244, 188, 188);
+    border: solid rgb(9, 146, 135) .5em;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    padding: 20px;
+
+    font-size: 1.5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* #bContainer{
+
+    display: flex;
+    flex-direction: row;
+
+
+} */
+
+
+.button{
+
+    background-color: rgb(242, 145, 155);
+
+    margin-left: 75vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button2{
+
+    background-color: rgb(242, 145, 155);
+
+    margin-right: 75vw;
+    margin-left: 5vw;
+    margin-top: 2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+a:link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: blue;
+  }
