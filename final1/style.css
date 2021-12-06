@@ -47,3 +47,13 @@ a:link {
     width: 99vw;
 
   }
+
+#btContainer{
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+  }
