@@ -1,0 +1,49 @@
+#about{
+
+    background-color: antiquewhite;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+
+    padding: 2vw;
+
+}
+
+#chapter{
+
+    background-color: white;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    margin-top: 15vh;
+
+}
+
+#chList{
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 5vw;
+    padding-top: 2vh;
+
+}
+
+a:link {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .img{
+
+    width: 99vw;
+
+  }
