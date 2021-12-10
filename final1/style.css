@@ -1,3 +1,6 @@
+
+/* ------ home page css ------ */
+
 #about{
 
     background-color: antiquewhite;
@@ -42,10 +45,13 @@ a:link {
     color: blue;
   }
 
+
+/* ------ Chapters css ------ */
+/* img size & button container  */
+
   .img{
 
-    width: 99vw;
-
+    width: 65vw;
   }
 
 #btContainer{
@@ -55,5 +61,61 @@ a:link {
   flex-direction: row;
   justify-content: space-around;
 
+
+  }
+
+
+/* ------ Intro page css ------ */
+
+  #IntroBody{
+
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+/* intro page 1 */
+
+  #Intro1{
+
+    margin-left: 17.5vw;
+    margin-right: 16vw;
+    background-color: aquamarine;
+
+  }
+
+  #intro1Speech{
+
+    position: absolute;
+    left: 52vw;
+    top: 115vh;
+
+    width: 25vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Hello{
+
+    font-size: 2.5em;
+
+  }
+
+  #Hello:hover{
+
+    font-size: 2.8em;
+
+  }
+
+  /* intro page 2 */
+
+  #Intro2{
+
+    margin-left: 17.5vw;
+    margin-right: 16vw;
+    background-color: aquamarine;
 
   }
