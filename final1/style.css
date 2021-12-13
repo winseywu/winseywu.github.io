@@ -1,36 +1,114 @@
 
 /* ------ home page css ------ */
 
+  /* this the about me section */
+
+  #Home1{
+
+    margin-left: 17.5vw;
+    margin-right: 16vw;
+
+    background-color: aquamarine;
+
+  }
+
 #about{
 
     background-color: antiquewhite;
-    margin-left: 20vw;
-    margin-right: 10vw;
+    margin-left: 17.5vw;
+    margin-right: 16vw;
     margin-top: 5vh;
 
     padding: 2vw;
 
 }
+/* just the font size here */
+.me{
+
+  font-size: 1.4em;
+}
+
+/* this the chapters section */
 
 #chapter{
 
     background-color: white;
-    margin-left: 5vw;
-    margin-right: 10vw;
+    margin-left: 17.5vw;
+    margin-right: 16vw;
     margin-top: 15vh;
 
 }
 
+/* want the "thumbnails" flex in row with the chapters */
+#chContainer{
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+/* the thumbnails container that is inside the chContainer */
+
+#thumbnails{
+
+  margin-top: 3vh;
+  margin-left: 5vw;
+
+  width: 5vw;
+  
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+/* spacing the thumbnails */
+.tn{
+
+  background-color: bisque;
+
+  margin-top: 1vh;
+
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 5vw;
+
+  font-size: 1em;
+
+
+}
+
+/* chapter list and spacing*/
 #chList{
 
     display: flex;
     flex-direction: column;
 
-    padding-left: 5vw;
-    padding-top: 2vh;
+    justify-content: space-evenly;
+
+    margin-top: 3vh;
+    margin-left: 2vw;
+
+    font-size: 1.5em;
+
+    height: 55vh;
 
 }
+/* div for each chapter */
+.ch{
 
+  padding-top: 2.5vh;
+
+  height: 6vh;
+  width: 10vw;
+  
+  align-items: center;
+  justify-content: center;
+
+}
+/* link stylizing */
 a:link {
     font-size: 1.2em;
     text-decoration: none;
@@ -45,9 +123,20 @@ a:link {
     color: blue;
   }
 
+/* Important note indeed */
+.hehe{
+
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+
+
 
 /* ------ Chapters css ------ */
-/* img size & button container  */
+/*General stuff */
+/* img size, button container, and layout  */
 
   .img{
 
@@ -64,27 +153,26 @@ a:link {
 
   }
 
-
-/* ------ Intro page css ------ */
-
   #IntroBody{
 
     background-color: beige;
     display: flex;
     flex-direction: column;
 
+    margin-left: 17.5vw;
+    margin-right: 16vw;
+
   }
 
+/* ------ Intro page css ------ */
 /* intro page 1 */
 
   #Intro1{
 
-    margin-left: 17.5vw;
-    margin-right: 16vw;
     background-color: aquamarine;
 
   }
-
+/* hello, winsey here */
   #intro1Speech{
 
     position: absolute;
@@ -97,7 +185,7 @@ a:link {
     justify-content: center;
     align-items: center;
   }
-
+/* font-size */
   #Hello{
 
     font-size: 2.5em;
@@ -106,7 +194,7 @@ a:link {
 
   #Hello:hover{
 
-    font-size: 2.8em;
+    font-size: 3em;
 
   }
 
@@ -114,8 +202,233 @@ a:link {
 
   #Intro2{
 
-    margin-left: 17.5vw;
-    margin-right: 16vw;
+    background-color: grey;
+
+  }
+
+  #intro2Speech1{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 55vw;
+    top: 280vh;
+
+    width: 22vw;
+
+    font-size: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #intro2Speech2{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 23vw;
+    top: 360vh;
+
+    width: 28vw;
+
+    padding: 1vw;
+
+    font-size: 1.2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #intro2Speech3{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 45vw;
+    top: 440vh;
+
+    width: 28vw;
+
+    padding: 1vw;
+
+    font-size: 1.2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ------ Chapter 1 css ------ */
+
+  #c1{
+
     background-color: aquamarine;
 
   }
+
+  #c1Speech1{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 24vw;
+    top: 40vh;
+
+    width: 23vw;
+
+    padding: 1vw;
+
+    font-size: 1.2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #c1Speech2{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 60vw;
+    top: 50vh;
+
+    width: 15vw;
+    height: 10vh;
+
+    padding: 1vw;
+
+    /* font-size: 1.8em; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #Father{font-size: 1.8em;}
+
+  #c1Speech3{
+
+    position: absolute;
+    left: 25vw;
+    top: 122vh;
+
+    width: 23vw;
+
+    padding: 1vw;
+
+    /* font-size: 3em; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #Poop{font-size: 3em;}
+
+  #c1Speech4{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 56vw;
+    top: 115vh;
+
+    width: 22vw;
+
+    padding: 1vw;
+
+    font-size: 1.2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* the translate buttons */
+  #translate{
+
+    font-size: 1em;
+
+  }
+
+  /* ------ Chapter 2 css ------ */
+
+  #c2Speech1{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 24vw;
+    top: 45vh;
+
+    width: 22vw;
+
+    padding: 1vw;
+
+    font-size: 1.2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #c2Speech2{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 24vw;
+    top: 560vh;
+
+    width: 22vw;
+
+    padding: 1vw;
+
+    font-size: 1.4em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #c2Speech3{
+
+    background-color: white;
+    border-radius: 50%;
+    border: black solid;
+
+    position: absolute;
+    left: 55vw;
+    top: 555vh;
+
+    width: 22vw;
+
+    padding: 1vw;
+
+    font-size: 1.2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
